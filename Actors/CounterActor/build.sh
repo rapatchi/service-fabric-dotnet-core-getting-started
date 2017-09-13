@@ -2,6 +2,7 @@
 DIR=`dirname $0`
 CURDIR=`pwd`
 
+
 cd $DIR/src/CounterActorApplication/CounterActor.Interfaces/
 dotnet restore -s /opt/microsoft/sdk/servicefabric/csharp/packages -s https://api.nuget.org/v3/index.json
 dotnet build
